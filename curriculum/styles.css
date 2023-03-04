@@ -1,0 +1,42 @@
+body{
+    margin: 0;
+    padding: 0;
+    font-family: "Roboto", sans-serif;
+}
+
+header{
+    background-color: #22242a;
+    width: 100%;
+    height: 30px;
+    padding: 20px;
+    position: fixed;
+}
+
+.left-area h3{
+    color: #fff;
+    margin: 0;
+    font-size: 22;
+    font-weight: 900;
+    text-transform: uppercase;
+}
+
+.exit-btn{
+    color: #fff;
+    text-decoration: none;
+    float: right;
+    margin-right: 40px;
+    margin-top: -30px;
+    background-color: #19b3d3;
+    font-size: 15px;
+    font-weight: 600;
+    border-radius: 5px;
+    padding: 5px 5px;
+    transition-delay: 0.5;
+    transition: 0.5s;
+}
+
+.exit-btn:hover{
+    background-color: #0d9dbb;
+    padding: 10px 10px;
+    border-radius: 5px;
+}
