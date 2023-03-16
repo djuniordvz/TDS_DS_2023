@@ -1,0 +1,168 @@
+:root {
+    --Black-Color: #22242a;
+    --Blue-Color: #19b3d3;
+    --White-Color: #fff;
+}
+
+body {
+    margin: 0;
+    padding: 0;
+    font-family: "Roboto", sans-serif;
+}
+
+header {
+    background-color: var(--Black-Color);
+    width: 100%;
+    height: 30px;
+    padding: 20px;
+    position: fixed;
+}
+
+.left-area h3 {
+    color: var(--White-Color);
+    margin: 0;
+    font-size: 22;
+    font-weight: 900;
+    text-transform: uppercase;
+}
+
+.exit-btn {
+    color: var(--White-Color);
+    text-decoration: none;
+    float: right;
+    margin-right: 40px;
+    margin-top: -30px;
+    background-color: var(--Blue-Color);
+    font-size: 15px;
+    font-weight: 600;
+    border-radius: 5px;
+    padding: 5px 5px;
+    transition-delay: 0.5;
+    transition: 0.5s;
+}
+
+.exit-btn:hover {
+    background-color: #0d9dbb;
+    padding: 10px 10px;
+    border-radius: 5px;
+}
+
+.profile {
+    text-align: center;
+}
+
+.profile-image {
+    width: 100px;
+    height: 100px;
+    border-radius: 50px;
+    margin-bottom: 10px;
+}
+
+nav {
+    background-color: #2f323a;
+    width: 250px;
+    height: 100%;
+    left: 0;
+    position: fixed;
+    margin-top: 70px;
+    padding-top: 30px;
+}
+
+nav h4 {
+    color: var(--White-Color);
+    margin-top: 0;
+    margin-bottom: 20px;
+}
+
+nav a {
+    color: var(--White-Color);
+    text-decoration: none;
+    display: block;
+    padding-left: 40px;
+    line-height: 80px;
+    box-sizing: border-box;
+}
+
+nav i {
+    margin-right: 10px;
+}
+
+nav a:hover {
+    background-color: #0d9dbb;
+    transition: 0.5s;
+}
+
+#Menubtn {
+    cursor: pointer;
+    color: var(--White-Color);
+    font-size: 20px;
+    position: fixed;
+    left: 250px;
+    top: 25px;
+}
+
+#chkmenu {
+    display: none;
+}
+
+#chkmenu:checked~nav {
+    left: -190px;
+}
+
+#chkmenu:checked~nav a {
+    margin-left: 165px;
+    font-size: 22px;
+}
+
+#chkmenu:checked~nav a span {
+    display: none;
+    transition-delay: 1.8s;
+}
+
+.content {
+    background-image: url('./40-402760_light-color-background-for-website.jpg');
+    background-position: center;
+    height: 100vh;
+    background-repeat: no-repeat;
+    background-size: cover;
+}
+
+.pf {
+    padding-top: 100px;
+    text-align: center;
+    background-color: #a7a7a7;
+    padding-bottom: 50px;
+    
+}
+
+.namedescription {
+    font-size: 28px;
+}
+
+.imgcenter {
+    border-radius: 100px;
+}
+
+.about {
+    padding-top: 30px;
+    padding-left: 50px;
+}
+
+.personaldata h3{
+    text-align: left;
+    padding-left: 25%;
+    padding-top: 50px;
+}
+
+.personaldata h4{
+    text-align: left;
+    padding-left: 30%;
+}
+
+.personaldata ul{
+    padding-left: 31%;
+}
+
+.corp h4{
+    padding-top: 20px ;
+}
